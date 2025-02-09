@@ -1,11 +1,11 @@
-import DateCounter from "./DateCounter";
+import DateCounter from './DateCounter';
 
 const App = () => {
   return (
     <div>
-      <h1><DateCounter /></h1>
+      <DateCounter />
     </div>
   );
-}
+};
 
 export default App;
