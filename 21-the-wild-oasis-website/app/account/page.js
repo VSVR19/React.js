@@ -1,7 +1,5 @@
-const Page = () => <h1>The account page</h1>
+const Page = () => 
+  <h1>Your account.</h1>;
 
-export default Page
+export default Page;
 
-// export default function Page() {
-//   return <h1>The account page</h1>
-// }
