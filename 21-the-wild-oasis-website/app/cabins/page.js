@@ -1,7 +1,7 @@
 // Each of the page.js component in a Next.js app is a react server (RSC) component
-// import Counter from '../components/Counter';
+import Counter from '../components/Counter';
 
-export default async function Page() {
+const Page = async () => {
   const result = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await result.json();
 
@@ -16,6 +16,9 @@ export default async function Page() {
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
+      <Counter />
     </div>
   );
-}
+};
+
+export default Page;
