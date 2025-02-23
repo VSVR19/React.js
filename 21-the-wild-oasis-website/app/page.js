@@ -1,3 +1,4 @@
+// Each of the page.js component in a Next.js app is a react server (RSC) component
 import Link from 'next/link';
 
 const Page = () => {

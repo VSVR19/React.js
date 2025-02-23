@@ -1,7 +1,8 @@
-import Link from "next/link";
+// This component is a react server (RSC) component
+import Link from 'next/link';
 
 const Navigation = () => {
-    return (
+  return (
     <ul>
       <li>
         <Link href="/">Home</Link>
@@ -17,6 +18,6 @@ const Navigation = () => {
       </li>
     </ul>
   );
-}
+};
 
 export default Navigation;
